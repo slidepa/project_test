@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-22T19:42:33.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GCngxkdKiqh9EgNITD7X" version="21.7.5" type="device">
+  <diagram name="Страница — 1" id="Vz8HSenxVaQ9oyIMM9pu">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="gNF94SxS_pXNf6LUNsGS-2" target="gNF94SxS_pXNf6LUNsGS-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-2" value="БД Пользователей" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="238" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="gNF94SxS_pXNf6LUNsGS-3" target="gNF94SxS_pXNf6LUNsGS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-3" value="Модуль проверки пользователя" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="gNF94SxS_pXNf6LUNsGS-4" target="gNF94SxS_pXNf6LUNsGS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-4" value="Системная панель" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontSize=15;" edge="1" parent="1" source="gNF94SxS_pXNf6LUNsGS-5" target="gNF94SxS_pXNf6LUNsGS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-5" value="Ввод данных пользователя" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="238" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gNF94SxS_pXNf6LUNsGS-7" value="Страница входа" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="285" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

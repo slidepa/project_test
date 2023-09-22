@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-09-22T18:33:27.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Tp1QZ5L1dFOAXfSgIh-j" version="21.7.5" type="device">
+  <diagram name="Страница — 1" id="GqWcVGzxmgbX92KXHL3x">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#57D2FF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="730" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-2" target="2bCZGV9tfNaiHARKXQmV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-2" target="2bCZGV9tfNaiHARKXQmV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-2" value="Запрос создания пользователя у администратора" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-3" value="Заполнение данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-4" value="Получения логина и пароля" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-5" target="2bCZGV9tfNaiHARKXQmV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-5" value="Авторизация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-6" target="2bCZGV9tfNaiHARKXQmV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-6" value="Ввод логина и пароля" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-7" value="Вход в ЛК" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-8" value="Получение доступа в ЛК" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=23;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="445" y="50" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-9" target="2bCZGV9tfNaiHARKXQmV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2bCZGV9tfNaiHARKXQmV-9" target="2bCZGV9tfNaiHARKXQmV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2bCZGV9tfNaiHARKXQmV-9" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fillColor=#4C3FFC;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
