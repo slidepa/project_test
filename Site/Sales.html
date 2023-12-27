@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Продажи</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключение библиотеки Chart.js для графиков -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<div class="zagolovog">
+  <h1>Управление продажами</h1>
+</div>
+
+<main>
+  <section id="salesList" class="secti">
+    <h2>Список продаж</h2>
+    <ul id="sales">
+      <!-- Здесь будут отображаться продажи -->
+    </ul>
+  </section>
+
+  <section id="createSale" class="secti">
+    <h2>Создать новую продажу</h2>
+    <form id="saleForm" class="formm">
+      <label for="saleItem">Товар:</label>
+      <input type="text" id="saleItem" required>
+      <br>
+      <label for="saleAmount">Количество:</label>
+      <input type="number" id="saleAmount" required>
+      <br>
+      <label for="saleAmount">Сумма:</label>
+      <input type="number" id="saleSummar" required>
+      <br>
+      <label for="saleName">Имя продавца:</label>
+      <input type="text" id="saleName" required>
+      <br>
+      <label for="saleSurname">Фамилия продавца:</label>
+      <input type="text" id="saleSurname" required>
+      <br>
+      <label for="saleDate">Дата:</label>
+      <input type="date" id="saleDate" required>
+      <br>
+      <button type="submit">Добавить продажу</button>
+    </form>
+  </section>
+
+  <section id="salesChart" class="secti">
+    <h2>График продаж</h2>
+    <canvas id="salesChartCanvas"></canvas>
+  </section>
+</main>
+<script src="script.js"></script>
+<script src="header_script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="sales_script.js" defer></script>
+</body>
+</html>

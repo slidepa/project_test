@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Задачи</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header"></div>
+<div class="zagolovog">
+  <h1>Управление задачами</h1>
+</div>
+
+<main>
+  <section id="taskList" class="secti">
+    <h2>Список задач</h2>
+    <ul id="tasks">
+      <!-- Здесь будут отображаться задачи -->
+    </ul>
+  </section>
+
+  <section id="createTask" class="secti">
+    <h2>Создать новую задачу</h2>
+    <form id="taskForm" class="formm">
+      <label for="employeeFirstName">Имя сотрудника:</label>
+      <input type="text" id="employeeFirstName" required>
+      <br>
+      <label for="employeeLastName">Фамилия сотрудника:</label>
+      <input type="text" id="employeeLastName" required>
+      <br>
+      <label for="taskTitle">Название задачи:</label>
+      <input type="text" id="taskTitle" required>
+      <br>
+      <label for="taskDescription">Описание:</label>
+      <textarea id="taskDescription" required></textarea>
+      <br>
+      <label for="taskDeadline">Срок выполнения:</label>
+      <input type="date" id="taskDeadline" required>
+      <br>
+      <button type="submit">Создать задачу</button>
+    </form>
+  </section>
+</main>
+<script src="header_script.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="task_script.js" defer></script>
+</body>
+</html>

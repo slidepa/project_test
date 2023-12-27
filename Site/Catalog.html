@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог автомобилей</title>
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header"></div>
+<div class="zagolovog">
+  <h1>Каталог автомобилей</h1>
+</div>
+<br>
+<main>
+  <div style="text-align: center;">
+    <input style="width: 200px; height: 30px; border-radius: 5px; border: 1px solid #ff0000;" type="text" id="search" placeholder="Поиск по марке или модели">
+  </div>
+  <br>
+  <div class="cars" id="carsList">
+    <!-- Здесь будут отображаться автомобили -->
+  </div>
+  <section class="secti">
+  <form id="addCarForm" class="formm">
+    <label for="brand">Марка:</label>
+    <input type="text" id="brand" placeholder="Марка">
+    <br>
+    <label for="model">Модель:</label>
+    <input type="text" id="model" placeholder="Модель">
+    <br>
+    <label for="year">Год:</label>
+    <input type="number" id="year" placeholder="Год выпуска">
+    <br>
+    <label for="price">Цена:</label>
+    <input type="number" id="price" placeholder="Цена">
+    <br>
+    <button type="submit">Добавить автомобиль</button>
+  </form>
+  </section>
+</main>
+<script src="header_script.js"></script>
+<script src="script.js"></script>
+<script src="catal_script.js" defer></script>
+</body>
+</html>

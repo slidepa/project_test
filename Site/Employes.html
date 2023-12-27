@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сотрудники</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header"></div>
+<div class="zagolovog">
+  <h1>Управление сотрудниками</h1>
+</div>
+
+<main>
+  <section id="employeeList" class="secti">
+    <h2>Список сотрудников</h2>
+    <ul id="employees">
+    </ul>
+  </section>
+
+  <section id="createEmployee" class="secti">
+    <h2 style="text-align: center;">Добавить нового сотрудника</h2>
+    <form id="employeeForm" class="formm">
+      <label for="employeeName">Имя:</label>
+      <input type="text" id="employeeName" required>
+      <br>
+      <label for="employeeSurname">Фамилия:</label>
+      <input type="text" id="employeeSurname" required>
+      <br>
+      <label for="employeeMiddleName">Отчество:</label>
+      <input type="text" id="employeeMiddleName">
+      <br>
+      <label for="employeeDOB">Дата рождения:</label>
+      <input type="date" id="employeeDOB" required>
+      <br>
+      <label for="employeeExperience">Стаж:</label>
+      <input type="number" id="employeeExperience" required>
+      <br>
+      <label for="employeePost">Должность:</label>
+      <input type="text" id="employeePost" required>
+      <br>
+      <label for="employeeLogin">Логин сотрудника:</label>
+      <input type="text" id="employeeLogin" required>
+      <br>
+      <label for="employeePass">Пароль сотрудника:</label>
+      <input type="text" id="employeePass" required>
+      <br>
+      <button type="button" onclick="addEmployee()">Добавить сотрудника</button>
+    </form>
+  </section>
+</main>
+<script src="header_script.js"></script>
+<script src="script.js"></script>
+<script src="emp_srcipt.js" defer></script>
+</body>
+</html>

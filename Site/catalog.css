@@ -1,0 +1,33 @@
+/* Стили для фильтров */
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label, .filters select, .filters button {
+    margin-right: 10px;
+}
+
+/* Стили для списка автомобилей */
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.car {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ea0606;
+    background: #c54a4a;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
