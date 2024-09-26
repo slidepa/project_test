@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lk_script.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="header_script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div id="header"></div>
+
+<main style="margin: 10px">
+    <!-- Секция для отображения информации о задачах -->
+    <section id="tasksSection">
+        <h2>Задачи сотрудника</h2>
+        <ul id="employeeTasks">
+            <!-- Список задач сотрудника будет отображаться здесь -->
+        </ul>
+    </section>
+
+    <!-- Секция для отображения графика продаж -->
+    <section id="salesChartSection">
+        <h2>График продаж сотрудника</h2>
+        <canvas id="salesChartCanvas"></canvas>
+    </section>
+
+    <!-- Секция для отображения личных данных сотрудника -->
+    <section id="personalInfoSection">
+        <h2>Личные данные сотрудника</h2>
+        <div id="employeePersonalInfo">
+            <!-- Информация о сотруднике будет отображаться здесь -->
+        </div>
+    </section>
+</main>
+</body>
+</html>

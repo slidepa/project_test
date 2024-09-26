@@ -1,0 +1,133 @@
+* {box-sizing: border-box;}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+body {
+    background: rgba(138, 130, 117, 0.85);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFEB3B;
+    padding: 10px 10px;
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+.zagolovog{
+    text-align: center;
+    background-color: #e70d0d;
+    margin: 0px;
+    padding: 20px;
+}
+.secti{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.formm{
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    background: rgba(56, 52, 49, 0.95);
+}
+.wrap-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #FBC02D;
+    color: #212121;
+}
+
+header a.active {
+    background-color: #FBC02D;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid #ea0606;
+    border-radius: 10%;
+    padding: 20px 40px 20px 40px;
+    margin: 20px;
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+form button{
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #c43030;
+    border: 0px;
+}
+form button:hover{
+    background-color: #ea0606;
+
+    color: #ffffff;
+}
+form input{
+    opacity: 0.75;
+}
+.hidden {
+    display: none;
+}
+
+/* Стили для бургер меню */
+.menu-toggle {
+    cursor: pointer;
+    display: none; /* Скрываем кнопку на больших экранах */
+}
+
+@media screen and (min-width: 901px) {
+    .menu-items {
+        display: flex; /* Отображаем меню при больших экранах */
+    }
+}
+
+/* Медиа-запрос для отображения кнопки меню на маленьких экранах */
+@media screen and (max-width: 900px) {
+    .menu-toggle {
+        display: block; /* Отображаем кнопку на маленьких экранах */
+    }
+
+    .menu-items {
+        display: none; /* Скрываем меню по умолчанию */
+        position: absolute;
+        top: 72px; /* Расположение меню под шапкой (может потребоваться настройка) */
+        right: 0;
+        background-color: #f5df0d; /* Цвет фона меню */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень меню (опционально) */
+        width: 200px;
+    }
+
+    .menu-items a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+}
